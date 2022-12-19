@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19741" started-at="2021-03-13T09:04:27 IST" finished-at="2021-03-13T09:04:47 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="19741" started-at="2021-03-13T09:04:27 IST" finished-at="2021-03-13T09:04:47 IST">
+      <class name="com.learnautomation.testcases.LoginTest">
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:com.learnautomation.testcases.LoginTest@327b636c]" name="setupBrowser" is-config="true" duration-ms="12043" started-at="2021-03-13T09:04:27 IST" finished-at="2021-03-13T09:04:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.learnautomation.testcases.LoginTest@327b636c]" name="setup" is-config="true" duration-ms="1" started-at="2021-03-13T09:04:41 IST" finished-at="2021-03-13T09:04:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginApplication(java.lang.String, java.lang.String)[pri:0, instance:com.learnautomation.testcases.LoginTest@327b636c]" name="loginApplication" duration-ms="5348" started-at="2021-03-13T09:04:41 IST" data-provider="adminUser" finished-at="2021-03-13T09:04:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+      </class> <!-- com.learnautomation.testcases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
